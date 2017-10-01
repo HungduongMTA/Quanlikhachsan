@@ -51,3 +51,6 @@ C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS
 C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
 C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
 C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
+C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
