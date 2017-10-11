@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLKhachsan" Class="DataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=desktop-loq2vp6\sqlexpress;Initial Catalog=QLKhachsan;Integrated Security=True" SettingsObjectName="QLKS.Properties.Settings" SettingsPropertyName="QLKhachsanConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DICHVU" Member="DICHVUs">
+    <Type Name="DICHVU">
+      <Column Name="Madv" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Tendv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Giadv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="DICHVU_DICHVUSUDUNG" Member="DICHVUSUDUNGs" ThisKey="Madv" OtherKey="Madv" Type="DICHVUSUDUNG" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DICHVUSUDUNG" Member="DICHVUSUDUNGs">
+    <Type Name="DICHVUSUDUNG">
+      <Column Name="Socmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Madv" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Thanhtoan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="DICHVU_DICHVUSUDUNG" Member="DICHVU" ThisKey="Madv" OtherKey="Madv" Type="DICHVU" IsForeignKey="true" />
+      <Association Name="KHACHHANG_DICHVUSUDUNG" Member="KHACHHANG" ThisKey="Socmnd" OtherKey="Socmnd" Type="KHACHHANG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
+    <Type Name="KHACHHANG">
+      <Column Name="Socmnd" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Diachi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Sdt" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaPhong" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Ngayden" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Ngaytra" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="KHACHHANG_DICHVUSUDUNG" Member="DICHVUSUDUNGs" ThisKey="Socmnd" OtherKey="Socmnd" Type="DICHVUSUDUNG" />
+      <Association Name="PHONG_KHACHHANG" Member="PHONG" ThisKey="MaPhong" OtherKey="MaPhong" Type="PHONG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHONG" Member="PHONGs">
+    <Type Name="PHONG">
+      <Column Name="MaPhong" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Tinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Giaphong" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Loaiphong" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="PHONG_KHACHHANG" Member="KHACHHANGs" ThisKey="MaPhong" OtherKey="MaPhong" Type="KHACHHANG" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Xoa_Phong" Method="Xoa_Phong">
+    <Parameter Name="mp" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_Dichvu" Method="Xoa_Dichvu">
+    <Parameter Name="mdv" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_Khachhang" Method="Update_Khachhang">
+    <Parameter Name="socmnd" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="hoten" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="diachi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="sdt" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="nd" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="nt" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_Khachhang" Method="Xoa_Khachhang">
+    <Parameter Name="socmnd" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Them_Dichvu" Method="Them_Dichvu">
+    <Parameter Name="mdv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tdv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gdv" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_Dichvu" Method="Update_Dichvu">
+    <Parameter Name="mdv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tdv" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gdv" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Select_Dichvusudung" Method="Select_Dichvusudung">
+    <ElementType Name="Select_DichvusudungResult">
+      <Column Name="Hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Socmnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Madv" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Tendv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Thanhtoan" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UPDATE_Dichvusudung" Method="UPDATE_Dichvusudung">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Them_DVSD" Method="Them_DVSD">
+    <Parameter Name="socmnd" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="madv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="soluong" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_DVSD" Method="Xoa_DVSD">
+    <Parameter Name="socmnd" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_DVSD" Method="Update_DVSD">
+    <Parameter Name="socmnd" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="madv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="soluong" Type="System.Int32" DbType="Int" />
+    <Parameter Name="thanhtoan" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Select_ThanhtoanDVSD" Method="Select_ThanhtoanDVSD">
+    <Parameter Name="cmnd" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Select_ThanhtoanDVSDResult">
+      <Column Name="tendv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Giadv" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Thanhtoan" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Them_Khachhang" Method="Them_Khachhang">
+    <Parameter Name="socmnd" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="hoten" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="diachi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="sdt" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="nd" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="nt" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Them_Phong" Method="Them_Phong">
+    <Parameter Name="mp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tt" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gp" Type="System.Double" DbType="Float" />
+    <Parameter Name="lp" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_Phong" Method="Update_Phong">
+    <Parameter Name="mp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tt" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gp" Type="System.Double" DbType="Float" />
+    <Parameter Name="lp" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Update_Thanhtoan" Method="Update_Thanhtoan">
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Select_Nhanvien" Method="Select_Nhanvien">
+    <Parameter Name="tentk" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="Select_NhanvienResult">
+      <Column Name="Tennv" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

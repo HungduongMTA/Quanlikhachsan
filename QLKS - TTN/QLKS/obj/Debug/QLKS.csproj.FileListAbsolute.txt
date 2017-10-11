@@ -1,0 +1,22 @@
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\bin\Debug\QLKS.exe
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\bin\Debug\QLKS.pdb
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Form1.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.exe
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.pdb
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.dichvu.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Dichvusudung.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Khachhang.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Phong.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.ThanhToan.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Themphong.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Themdichvu.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Themkhachhang.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.csprojResolveAssemblyReference.cache
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Themdichvusudung.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS\QLKS\obj\Debug\QLKS.Login.resources
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\Duong Hung\Documents\Visual Studio 2013\Projects\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
