@@ -21,18 +21,28 @@ namespace QLKS
         DataContextDataContext dt = new DataContextDataContext();
         private void Themkhachhang_Load(object sender, EventArgs e)
         {
-            
+            conn = new SqlConnection(cnn);
+            conn.Open();
         }
         private void bntthem_Click(object sender, EventArgs e)
         {
-           
+            if (txthoten.Text == "" || txtcmnd.Text == "" || txtdiachi.Text == "" || txtsdt.Text == "" || txtmaphong.Text == "" || txtngayden.Text == "" || txtngaytra.Text == "")
+            {
+                MessageBox.Show("Xin kiểm tra lại thông tin nhập");
+            }
+            else
+            {
+                dt.Them_Khachhang(txtcmnd.Text, txthoten.Text, txtdiachi.Text, txtsdt.Text, txtmaphong.Text, DateTime.Parse(txtngayden.Text), DateTime.Parse(txtngaytra.Text));
+                MessageBox.Show("Thêm mới thành công!");
+            }
+            Themkhachhang_Load(sender, e);
         }
 
-      
+
 
         private void bnthoat_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
         }
     }
 }
