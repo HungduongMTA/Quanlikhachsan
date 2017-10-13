@@ -48,3 +48,6 @@ C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS
 C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.ThanhToan.resources
 C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
