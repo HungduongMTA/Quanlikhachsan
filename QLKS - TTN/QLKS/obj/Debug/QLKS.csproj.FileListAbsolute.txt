@@ -29,3 +29,22 @@ C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
 C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
 C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
 C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.pdb
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csprojResolveAssemblyReference.cache
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Login.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themdichvu.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themdichvusudung.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themkhachhang.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themphong.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.dichvu.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Dichvusudung.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Form1.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Khachhang.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Phong.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.ThanhToan.resources
+C:\Users\SlowRock\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
