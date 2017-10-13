@@ -17,7 +17,7 @@ namespace QLKS
             InitializeComponent();
         }
         string cnn = @"Data Source=desktop-loq2vp6\sqlexpress;Initial Catalog=QLKhachsan;Integrated Security=True";
-        SqlConnection conn;
+        SqlConnection conn;  // tạo sqlconnection chung
         DataContextDataContext dt = new DataContextDataContext();
         private void Themkhachhang_Load(object sender, EventArgs e)
         {
