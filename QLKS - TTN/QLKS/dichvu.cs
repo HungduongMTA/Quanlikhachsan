@@ -106,5 +106,11 @@ namespace QLKS
         {
             dichvu_Load(sender, e);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            chitiet c = new chitiet();
+        // c.show();
+        }
     }
 }

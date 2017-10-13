@@ -70,3 +70,6 @@ C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Phon
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Properties.Resources.resources
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.ThanhToan.resources
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache
+C:\Users\aly\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\aly\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\aly\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
