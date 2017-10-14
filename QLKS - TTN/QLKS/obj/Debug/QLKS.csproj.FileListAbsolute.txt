@@ -26,3 +26,6 @@ C:\Users\HOANGHAI\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
 C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
+C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
+C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
+C:\Users\Hung\Documents\GitHub\Quản lý khách sạn\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
