@@ -21,19 +21,22 @@ namespace QLKS
         DataContextDataContext dt = new DataContextDataContext();
         private void button1_Click(object sender, EventArgs e)
         {
-           
-          
+            dt.Them_Phong(txtmaphong.Text, txttinhtrang.Text, float.Parse(txtgiaphong.Text), txtgiaphong.Text);
+            MessageBox.Show("Thêm mới thành công!");
+            Themphong_Load(sender, e);
+
         }
 
         private void Themphong_Load(object sender, EventArgs e)
         {
-            
+            conn = new SqlConnection(cnn);
+            conn.Open();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-          
-           
+
+            this.Close();
 
         }
     }
