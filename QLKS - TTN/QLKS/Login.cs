@@ -20,7 +20,7 @@ namespace QLKS
        
         DataContextDataContext dt = new DataContextDataContext();
         DataTable dt2 = new DataTable();
-        //Hung nho lam phan nay       
+        
         private void Login_Load(object sender, EventArgs e)
         {
 
