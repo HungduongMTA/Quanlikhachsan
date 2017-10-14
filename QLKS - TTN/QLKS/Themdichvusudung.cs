@@ -21,17 +21,28 @@ namespace QLKS
         DataContextDataContext dt = new DataContextDataContext();
         private void Themdichvusudung_Load(object sender, EventArgs e)
         {
-           
+            conn = new SqlConnection(cnn);
+            conn.Open();
+
         }
 
         private void bntthem_Click(object sender, EventArgs e)
         {
-            
+            if (txtcmnd.Text == "" || txtmadv.Text == "" || txtsoluong.Text == "")
+            {
+                MessageBox.Show("Xin kiểm tra lại thông tin nhập");
+            }
+            else
+            {
+                dt.Them_DVSD(txtcmnd.Text, txtmadv.Text, Int32.Parse(txtsoluong.Text));
+                MessageBox.Show("Thêm mới thành công!");
+            }
+            Themdichvusudung_Load(sender, e);
         }
 
         private void bnthoat_Click(object sender, EventArgs e)
         {
-          
+            this.Close();
         }
     }
 }
