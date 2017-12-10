@@ -64,8 +64,8 @@ namespace QLKS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            txttennv.DataBindings.Clear();
-            txttennv.DataBindings.Add("Text", dt.Select_Nhanvien(txttk.Text), "TenNV");
+           // txttennv.DataBindings.Clear();
+           // txttennv.DataBindings.Add("Text", dt.Select_Nhanvien(txttk.Text), "TenNV");
         }
 
         private void bntDangxuat_Click(object sender, EventArgs e)

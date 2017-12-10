@@ -54,3 +54,19 @@ C:\Users\Khong Minh\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QL
 C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe.config
 C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.exe
 C:\Users\Duong Hung\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.pdb
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.exe
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\bin\Debug\QLKS.pdb
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csprojResolveAssemblyReference.cache
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Login.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themdichvu.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themdichvusudung.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themkhachhang.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Themphong.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.dichvu.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Dichvusudung.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Form1.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Khachhang.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Phong.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.Properties.Resources.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.ThanhToan.resources
+C:\Users\NTB\Documents\GitHub\Quanlikhachsan\QLKS - TTN\QLKS\obj\Debug\QLKS.csproj.GenerateResource.Cache

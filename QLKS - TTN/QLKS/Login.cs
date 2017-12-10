@@ -16,7 +16,7 @@ namespace QLKS
         {
             InitializeComponent();
         }
-        string cnn = @"Data Source=desktop-loq2vp6\sqlexpress;Initial Catalog=QLKhachsan;Integrated Security=True";
+        string cnn = @"Data Source=DESKTOP-78OK5HK\NGUYENTHAIBAO;Initial Catalog=QLKhachsan;Integrated Security=True";
 
         DataContextDataContext dt = new DataContextDataContext();
         DataTable dt2 = new DataTable();

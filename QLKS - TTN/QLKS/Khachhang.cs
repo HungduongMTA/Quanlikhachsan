@@ -16,7 +16,7 @@ namespace QLKS
         {
             InitializeComponent();
         }
-        string cnn = @"Data Source=desktop-loq2vp6\sqlexpress;Initial Catalog=QLKhachsan;Integrated Security=True";
+        string cnn = @"Data Source=DESKTOP-78OK5HK\NGUYENTHAIBAO;Initial Catalog=QLKhachsan;Integrated Security=True";
         SqlConnection conn;
         DataContextDataContext dt = new DataContextDataContext();
         private void ketnoicsdl()
